@@ -1,0 +1,16 @@
+Level 1 (7)
+#include <iostream>
+using namespace std;
+void swapNumbers (int a, int b){
+    a=a+b;
+    b=a-b;
+    a=a-b;
+int main() {
+   int x, y;
+   cout<<"iki ededi dail edin";
+   cin>>x>>y;
+   swapNumbers(x, y);
+   cout<<"x="<<x<<"y="<<y;
+return 0;
+}
+
