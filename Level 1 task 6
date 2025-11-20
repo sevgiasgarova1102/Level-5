@@ -1,0 +1,15 @@
+Level 1 task 6.
+#include <iostream>
+using namespace std;
+void edediOrta(int a, int b, int c){
+int ortalama = (a + b + c) / 3;
+    cout << "Ededlerin ortalamasi: " << ortalama << endl;
+}
+int main(){
+    int x, y, z;
+    cout<<"3 eded daxil edin: ";
+    cin>>x>>y>>z;
+
+    edediOrta(x, y, z);
+return 0;
+}
