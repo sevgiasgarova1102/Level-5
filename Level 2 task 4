@@ -1,0 +1,19 @@
+Level 2 task 4.
+#include <iostream>
+using namespace std;
+
+void cutTekYoxla(int a) {
+    if (a % 2 == 0) {
+        cout << "Eded cutdur." << endl;
+    }
+    else {
+        cout << "Eded tekdir." << endl;
+    }
+}
+int main() {
+    int a;
+    cout<<"Ededi daxil et: ";
+    cin >> a;
+    cutTekYoxla(a);
+  return 0;
+}
