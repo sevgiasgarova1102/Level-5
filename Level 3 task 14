@@ -1,0 +1,15 @@
+Level 3 task 14.
+#include <iostream>
+using namespace std;
+
+void 3ve7Bölünen() {
+    for (int i = 1; i <= 100; i++) {
+        if (i % 3 == 0 && i % 7 == 0){
+            cout << i <<endl;
+    }
+}
+}
+int main() {
+    3ve7Bölünen();
+    return 0;
+}
