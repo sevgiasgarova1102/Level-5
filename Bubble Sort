@@ -1,0 +1,27 @@
+Bubble Sort.
+Bubble Sortun işləmə prinsipi belədir:
+Yan-yana, qonşu iki elementi müqayisə edir,
+böyük olanını sağa göndərir.
+Məsələn: [5, 3, 8, 2]
+1-ci olaraq 5 və 3-ü müqayisə edirik, burada
+5 böyükdür bunu sağa göndəririk, 3 isə 5-in yerinə
+keçəcək. Yəni, [3, 5, 8, 2]
+Sonra isə, biz 5 və 8-i müqayisə edirik, 8 böyükdür
+5 isə kiçikdir, burada mövqe dəyişmir. [3, 5, 8, 2]
+Sonda 8 və 2-ni müqayisə edirik, 8 böyük olduğu üçün
+sağa keçir yəni, [3, 5, 2, 8]
+Nəticə olaraq, bu dövrün sonunda ən böyük element sona keçdi.
+Sonra başlayırıq, 2-ci dövrü yazmağa:
+[3, 5, 2, 8] hal hazırda bu formaya düşüb.
+Yenidən başlayırıq, 3 və 5-i müqayisə edirik
+3 kiçikdir, 5 isə böyük və sağdadır, mövqe dəyişmir.
+[3, 5, 2, 8] 5 və 2-ni müqayisə edirik 5 böyükdür, 2-dən
+5 keçir sağa, yəni belə formada [3, 2, 5, 8]
+İndi isə keçirik, 3-cü dövrə:
+[3, 2, 5, 8] formasındadır, 3 və 2-ni müqayisə edək,
+3 böyük olduğuna görə sağa keçir, artıq bu bizə aydındır.
+Qısacası, bu formada olacaq [2, 3, 5, 8].
+Artıq bizim massivimiz, düzgün sıralamadadır.
+Buradan belə bir nəticə çıxır ki, ən böyük element ən sonda olur.
+Soldan sağa gedərək, qonşu elementləri müqayisə edirik.
+Bunu massiv düzgün sıralamaya düşənə qədər təkrar edirik.
