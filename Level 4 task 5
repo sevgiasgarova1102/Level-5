@@ -1,0 +1,23 @@
+Level 4 task 5.
+İstifadəçi ədəd daxil edir — həmin ədədin **tam bölənlərinin sayını** tapın.  
+
+
+#include <iostream>
+using namespace std;
+
+void tamBölenSay(int n) {
+    int say = 0;
+    for (int i = 1; i <= n; i++) {
+        if (n % i == 0){
+            say=say+1
+    }
+}
+    cout << say;
+}
+
+int main() {
+    int eded;
+    cin >> eded;
+    tamBölenSay(eded);
+    return 0;
+}
