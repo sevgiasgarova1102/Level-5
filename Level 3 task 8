@@ -1,0 +1,20 @@
+Level 3 task 8.
+#include <iostream>
+using namespace std;
+
+void ededinTersi(int eded) {
+    int ters = 0;
+    while (eded != 0) {
+        int qaliq = eded % 10;
+        ters = ters * 10 + qaliq;
+        eded = eded / 10;
+    }
+    cout << ters;
+}
+
+int main() {
+    int eded;
+    cin >> eded;
+    ededinTersi(eded);
+    return 0;
+}
